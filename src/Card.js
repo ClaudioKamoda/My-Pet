@@ -32,7 +32,9 @@ const Card = () => {
 					equipe de profissionais.
 				</p>
 				<p className="mb-3 font-bold text-black">
-					Av. dos Bandeirantes, 101 Centro - São José dos Campos - SP
+					Av. dos Bandeirantes, 101
+					<br />
+					Centro - São José dos Campos - SP
 				</p>
 				<a
 					href="/"
