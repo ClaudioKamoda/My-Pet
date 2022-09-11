@@ -1,5 +1,11 @@
+import Card from './Card.js'
+
 function App() {
-	return <h1 className="text-3xl font-bold underline">Hello world!</h1>
+	return (
+		<div className="bg-gray-200 h-screen w-screen p-10">
+			<Card />
+		</div>
+	)
 }
 
 export default App
