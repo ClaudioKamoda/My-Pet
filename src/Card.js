@@ -1,5 +1,5 @@
-import logo from './logo.png'
-import paw from './paw.png'
+import logo from './images/logo.png'
+import paw from './images/paw.png'
 
 const Card = () => {
 	return (
