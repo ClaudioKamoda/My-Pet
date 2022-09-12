@@ -6,11 +6,7 @@ const PetIcon = props => {
 		<div className="flex justify-around rounded-full w-32 bg-green-200 shadow-sm p-2 items-center">
 			{props.type === 'dog' && (
 				<>
-					<img
-						className="w-6 h-6 filter hue-rotate-90"
-						src={dog}
-						alt="dog icon"
-					/>
+					<img className="w-6 h-6" src={dog} alt="dog icon" />
 					<p className="text-green-800 font-semibold">Cães</p>
 				</>
 			)}

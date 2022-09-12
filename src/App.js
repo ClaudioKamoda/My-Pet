@@ -1,13 +1,13 @@
+import { Footer } from './Footer.js'
 import Card from './Card.js'
-import DetailContainer from './DetailContainer.js'
-import Map from './Map.js'
+import { Header } from './Header.js'
 
 function App() {
 	return (
-		<div className="bg-gray-200 h-fit w-screen p-10">
+		<div className="bg-gray-200 min-h-screen h-fit w-screen">
+			<Header />
 			<Card />
-			<Map />
-			<DetailContainer />
+			<Footer />
 		</div>
 	)
 }
