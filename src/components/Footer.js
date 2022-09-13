@@ -1,13 +1,13 @@
-import appStore from './images/appStore.png'
-import googlePlay from './images/googlePlay.png'
-import payment from './images/payment.png'
+import appStore from '../images/appStore.png'
+import googlePlay from '../images/googlePlay.png'
+import payment from '../images/payment.png'
 
 export const Footer = () => {
 	return (
-		<footer>
+		<footer className="w-screen h-fit">
 			<section className="bg-fuchsia-600 w-screen p-5 sm:p-8 md:p-11 lg:p-14">
 				<div className="max-w-6xl w-full m-auto">
-					<div className="text-white text-5xl font-bold mb-8">
+					<div className="text-white text-5xl w-fit font-bold mb-8">
 						MYPET
 					</div>
 					<div className="flex flex-col sm:flex-row flex-wrap gap-6 sm:justify-between">

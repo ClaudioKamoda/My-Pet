@@ -1,7 +1,7 @@
 import { Carousel } from 'flowbite-react'
-import pets1 from './images/pets1.jpg'
-import pets2 from './images/pets2.jpg'
-import pets3 from './images/pets3.jpg'
+import pets1 from '../images/pets1.jpg'
+import pets2 from '../images/pets2.jpg'
+import pets3 from '../images/pets3.jpg'
 
 const ImageSlider = () => {
 	return (

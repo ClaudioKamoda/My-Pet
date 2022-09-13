@@ -1,5 +1,5 @@
-import dog from './images/dogIcon.png'
-import lizard from './images/lizIcon.png'
+import dog from '../images/dogIcon.png'
+import lizard from '../images/lizIcon.png'
 
 const PetIcon = props => {
 	return (
