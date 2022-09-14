@@ -1,7 +1,7 @@
 import ImageSlider from './ImageSlider'
 import PetIcon from './PetIcon'
 
-const DetailContainer = () => {
+export const DetailContainer = () => {
 	return (
 		<section className="bg-white p-8 rounded-lg shadow-sm">
 			<ImageSlider />
@@ -23,5 +23,3 @@ const DetailContainer = () => {
 		</section>
 	)
 }
-
-export default DetailContainer

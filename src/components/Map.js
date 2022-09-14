@@ -1,6 +1,6 @@
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api'
 
-const Map = () => {
+export const Map = () => {
 	const { isLoaded } = useJsApiLoader({
 		id: 'google-map-script',
 		googleMapsApiKey: 'AIzaSyAdNbiETkmpfw6PzdtUfk6YTafkNz79F4Q'
@@ -43,5 +43,3 @@ const Map = () => {
 		</div>
 	)
 }
-
-export default Map
