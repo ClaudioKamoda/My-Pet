@@ -27,7 +27,7 @@ export const Map = () => {
 					<></>
 				)}
 			</div>
-			<div className="flex justify-between items-center mt-6">
+			<div className="flex justify-between items-center mt-6 gap-2">
 				<p className="font-semibold text-black">
 					Av. dos Bandeirantes, 101
 					<br />
@@ -35,7 +35,7 @@ export const Map = () => {
 				</p>
 				<a
 					href="/"
-					className="border border-fuchsia-700 bg-white rounded-lg font-bold text-fuchsia-700 flex items-center grow-0 px-5 py-2 hover:text-white hover:bg-fuchsia-700 transition"
+					className="border border-fuchsia-700 bg-white rounded-lg font-bold text-fuchsia-700 flex justify-center items-center text-center grow-0 px-5 py-2 hover:text-white hover:bg-fuchsia-700 transition"
 				>
 					VER O MAPA
 				</a>

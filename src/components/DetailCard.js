@@ -4,16 +4,19 @@ import { Button } from './Button.js'
 
 export const DetailCard = ({ info }) => {
 	return (
-		<div className="flex flex-col gap-4">
+		<div className="flex flex-col justify-center items-center gap-4 rounded-lg bg-white shadow-md p-5">
 			<img src={logo} alt="logo da loja" />
-			<h2>{info.name}</h2>
+			<h2 className="font-bold text-4xl text-fuchsia-700">{info.name}</h2>
 			<Rating />
-			<p className="font-bold text-black">
-				{`${info.address.street}, ${info.address.number}`}
-				<br />
-				{`${info.address.neighbourhood} - ${info.address.city} - ${info.address.UF}`}
-			</p>
-			<Button className="w-full h-6">CONTATO</Button>
+			<div className="font-bold text-black text-center">
+				<p>{`${info.address.street}, ${info.address.number}`}</p>
+				<p>
+					{`${info.address.neighbourhood} - ${info.address.city} - ${info.address.UF}`}
+				</p>
+			</div>
+			<Button className="w-full mb-4 text-base text-semibold py-4">
+				CONTATO
+			</Button>
 		</div>
 	)
 }

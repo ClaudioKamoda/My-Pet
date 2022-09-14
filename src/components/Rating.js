@@ -1,8 +1,8 @@
 import paw from '../images/paw.png'
 
-export const Rating = () => {
+export const Rating = ({ className }) => {
 	return (
-		<div className="my-2 flex gap-1 pb-4">
+		<div className={`flex gap-1 ${className}`}>
 			<img className="w-5 h-5" src={paw} alt="animal paw" />
 			<img className="w-5 h-5" src={paw} alt="animal paw" />
 			<img className="w-5 h-5" src={paw} alt="animal paw" />
