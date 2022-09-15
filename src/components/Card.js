@@ -12,7 +12,7 @@ export const Card = ({ data }) => {
 					alt="logo"
 				/>
 			</div>
-			<div className="p-5 flex flex-col justify-center items-center sm:justify-end sm:items-start">
+			<div className="p-5 flex flex-col w-full justify-center items-center sm:justify-end sm:items-start">
 				<h2 className="mb-2 text-2xl font-bold tracking-tight text-fuchsia-700">
 					{data.name}
 				</h2>

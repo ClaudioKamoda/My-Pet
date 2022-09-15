@@ -9,7 +9,7 @@ import { PetInfoPage } from './pages/PetInfoPage.js'
 
 function App() {
 	return (
-		<div className="bg-gray-200 min-h-screen h-fit w-screen">
+		<div className="bg-gray-200 h-fit max-w-screen">
 			<Navbar />
 			<Routes>
 				<Route path="/" element={<Navigate to="/Home" />} exact />

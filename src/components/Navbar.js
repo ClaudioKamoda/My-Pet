@@ -32,7 +32,6 @@ export const Navbar = () => {
 							size={40}
 							onClick={() => {
 								setOpen(!open)
-								console.log(open)
 							}}
 							className="absolute right-12 top-12 cursor-pointer lg:hidden z-[2]"
 						/>
